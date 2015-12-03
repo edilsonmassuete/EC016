@@ -304,6 +304,7 @@ if __name__ == "__main__":
 	
 
 	# creates a PSO instance
+	# Were made test with diferent numbers of iterations, results on article
 	pso = PSO(graph, iterations=100, size_population=10, beta=1, alfa=0.1)
 	pso.run() # runs the PSO algorithm
 	pso.showsParticles() # shows the particles
