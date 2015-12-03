@@ -3,7 +3,7 @@
 '''
 	Solution for Travelling Salesman Problem using PSO (Particle Swarm Optimization)
 	Autor: Marcos Castro
-	Adaptado : Edilson Massuete 
+	Adaptado por : Edilson Massuete 
 '''
 
 from operator import attrgetter
@@ -268,7 +268,7 @@ class PSO:
 
 if __name__ == "__main__":
 	
-	# creates the Graph instance
+	# Creating a Graph according the first image of article.
 	graph = Graph(amount_vertices=6)
 
 	graph.addEdge(0, 1, 146)
